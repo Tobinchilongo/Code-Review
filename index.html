@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: brown;">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <h1 id="title"> Tobin and Benjamin Survery Form</h1>
+    <p id="description">Tobin and Benjamin running a survey form</p>
+<div>
+    <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
+            <br>
+            <label id="email-label"><b>Email:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+            <br>
+            <label id="number-label"><b>Age:</b></label>
+            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="12+">
+            <select id="dropdown" class="dropdown" required>
+                <option disabled value>Select the band</option>
+                <option value="radio">RadioHead</option>
+                <option value="beatles">The Beatles</option>
+                <option value="justin">Justin Bieber</option>
+                <option value="mettalica">Mettalica</option>
+                <option value="jack">Jack Johnson</option>
+                
+              </select>
+              <ul>
+               
+                <li class="radio">
+                  <label>
+                    <input name="radio-buttons" value="1" type="radio" /> Beginner -
+                    Learning at least 1 programming language.
+                  </label>
+                </li>
+                
+                <li class="radio">
+                  <label>
+                    <input name="radio-buttons" value="3" type="radio" />
+                    Pro - Play at least 1 programming language  in a professional level.
+                  </label>
+                </li>
+              </ul>
+
+              <h3>WHICH LANGUAGE ARE YOU GOOD AT?</h3>
+              <ul>
+                <div class="checkboxes">
+                  <input type="checkbox" value="java" id="java" name="java" />
+                  <label for="java">java</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" value="python" id="python" name="python" />
+                  <label for="python">python</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" value="ruby" id="ruby" name="ruby" />
+                  <label for="ruby">ruby</label>
+                </div>
+         </div>
+         <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>Programming language you are expert at: </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+                <option value="C">C (Programming Language)</option></select></div><br>
+                
+                <h3>Leave Your Comment Support will chat you up:</h2>
+                <textarea placeholder="Enter your comments here..."></textarea>
+                <br>
+                <button id="submit" type="submit">Submit</button>
+          
+
+    
+      </form>
+</div>
+
+</body>
+<footer  style="text-align: center;"> <h5>&copy Benjamin & Tobin</h5>
+  <a href="https://github.com/BlaQ-Code/survey-form.git">GitHub Repo</a>
+</footer>
+
+
+</html>
